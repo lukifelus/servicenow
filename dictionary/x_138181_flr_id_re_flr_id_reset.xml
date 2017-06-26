@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="flr_id_reset" max_length="40" name="x_138181_flr_id_re_flr_id_reset" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ユーザーID" max_length="40" name="u_amps_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="所属部署" max_length="40" name="u_bumon_nm" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ユーザーID" max_length="40" name="u_hitati_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="例:AXXXXX(半角文字で入力のこと)" label="説明" max_length="40" name="u_hitati_id_d" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ユーザーID" max_length="40" name="u_ibm_id" type="string"/>
+        <element label="AFROSオンライン・ホスト系(A02)(TSO・FTP)" max_length="40" name="u_irai_1" type="boolean"/>
+        <element label="SET" max_length="40" name="u_irai_10" type="boolean"/>
+        <element label="スクリーンセーバー" max_length="40" name="u_irai_11" type="boolean"/>
+        <element label="ホスト系(PROD)(TSO/FTP)" max_length="40" name="u_irai_2" type="boolean"/>
+        <element label="AMPS(WING)" max_length="40" name="u_irai_3" type="boolean"/>
+        <element label="ネットワーク/メール" max_length="40" name="u_irai_4" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="ユーザーID" max_length="40" name="u_net_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="連絡先" max_length="40" name="u_renraku_tel" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="氏名" max_length="40" name="u_riyousya_nm" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ユーザーID" max_length="40" name="u_screen_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ユーザーID" max_length="40" name="u_set3_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="社員番号" max_length="40" name="u_syain_bangou" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_syozokucyou_j" type="string"/>
+    </element>
+</database>
