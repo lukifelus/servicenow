@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="flr_id_reset Task" max_length="40" name="x_138181_flr_id_re_flr_id_reset_task" type="collection">
+        <element label="Due Date" max_length="40" name="due_date" type="due_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="4000" name="escription" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short description" max_length="160" name="short_description" type="string"/>
+        <element choice="3" default="1" label="State" max_length="40" name="state" type="integer">
+            <choice>
+                <element label="Open" sequence="0" value="1"/>
+                <element label="Work in Progress" sequence="1" value="2"/>
+                <element label="Closed Complete" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Work notes" max_length="4000" name="work_notes" type="journal"/>
+    </element>
+</database>

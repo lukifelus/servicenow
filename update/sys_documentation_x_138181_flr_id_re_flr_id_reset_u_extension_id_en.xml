@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_extension_id" label="IP電話番号" language="en" table="x_138181_flr_id_re_flr_id_reset">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_extension_id</element>
+            <help/>
+            <hint/>
+            <label>IP電話番号</label>
+            <language>en</language>
+            <name>x_138181_flr_id_re_flr_id_reset</name>
+            <plural>IP電話番号s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-27 01:00:02</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>c51c8c6adb2332007a87fbefbf961931</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>IP電話番号</sys_name>
+            <sys_package display_value="flr_id_reset" source="x_138181_flr_id_re">d10a7f4adb633200fbeaf34ebf96197d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="flr_id_reset">d10a7f4adb633200fbeaf34ebf96197d</sys_scope>
+            <sys_update_name>sys_documentation_x_138181_flr_id_re_flr_id_reset_u_extension_id_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-27 02:52:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

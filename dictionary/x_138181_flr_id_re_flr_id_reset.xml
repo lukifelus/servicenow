@@ -2,20 +2,35 @@
 <database>
     <element label="flr_id_reset" max_length="40" name="x_138181_flr_id_re_flr_id_reset" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="13" label="State" max_length="40" name="state" type="integer">
+            <choice>
+                <element label="Requested" sequence="0" value="13"/>
+                <element label="Awaiting Approval" sequence="1" value="14"/>
+                <element label="Apploved" sequence="2" value="15"/>
+                <element label="Awaiting Feedback" sequence="3" value="16"/>
+                <element label="Close Complete" sequence="4" value="3"/>
+                <element label="Wothdrawn" sequence="5" value="8"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="ユーザーID" max_length="40" name="u_amps_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="例:XXXX_X(半角文字で入力のこと)" label="説明" max_length="40" name="u_amps_id_d" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="所属部署" max_length="40" name="u_bumon_nm" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ユーザーID" max_length="40" name="u_companycert_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="例:XXXX_X(半角文字で入力のこと)" label="説明" max_length="40" name="u_companycert_id_d" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="IP電話番号" max_length="20" name="u_extension_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ユーザーID" max_length="40" name="u_hitati_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="例:AXXXXX(半角文字で入力のこと)" label="説明" max_length="40" name="u_hitati_id_d" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ユーザーID" max_length="40" name="u_ibm_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="例:AXXXXXX(半角文字で入力のこと)" label="説明" max_length="40" name="u_ibm_id_d" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ユーザーID" max_length="40" name="u_image_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="例XXXX_X(半角文字で入力のこと)" label="説明" max_length="40" name="u_image_id_d" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="IP電話番号" max_length="20" name="u_ip_id" type="string"/>
         <element label="AFROSオンライン・ホスト系(A02)(TSO・FTP)" max_length="40" name="u_irai_1" type="boolean"/>
         <element label="SET" max_length="40" name="u_irai_10" type="boolean"/>
         <element label="スクリーンセーバー" max_length="40" name="u_irai_11" type="boolean"/>
+        <element label="ボイスメール（留守番電話パスワード）" max_length="40" name="u_irai_12" type="boolean"/>
+        <element label="IP電話設定（PCパスワード）" max_length="40" name="u_irai_13" type="boolean"/>
+        <element label="IP電話（エクステンションモビリティ）" max_length="40" name="u_irai_14" type="boolean"/>
         <element label="ホスト系(PROD)(TSO/FTP)" max_length="40" name="u_irai_2" type="boolean"/>
         <element label="AMPS(WING)" max_length="40" name="u_irai_3" type="boolean"/>
         <element label="ネットワーク/メール" max_length="40" name="u_irai_4" type="boolean"/>
@@ -42,5 +57,6 @@
         <element attributes="edge_encryption_enabled=true" label="ユーザーID" max_length="40" name="u_set3_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="社員番号" max_length="40" name="u_syain_bangou" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_syozokucyou_j" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="IP電話番号" max_length="20" name="u_voice_id" type="string"/>
     </element>
 </database>
