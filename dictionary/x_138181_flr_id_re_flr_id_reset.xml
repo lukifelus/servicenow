@@ -14,10 +14,18 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="ユーザーID" max_length="40" name="u_amps_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="例:XXXX_X(半角文字で入力のこと)" label="説明" max_length="40" name="u_amps_id_d" read_only="true" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="所属部署" max_length="40" name="u_bumon_nm" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="所属部署" mandatory="true" max_length="40" name="u_bumon_nm" type="string">
+            <choice>
+                <element label="RDC" sequence="0" value="X31A3"/>
+                <element label="RDC.Bank1." sequence="1" value="X31M0"/>
+                <element label="RDC.Bank1.Section1" sequence="2" value="X31MA"/>
+                <element label="RDC.Bank1.Section2" sequence="3" value="X31MC"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="ユーザーID" max_length="40" name="u_companycert_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="例:XXXX_X(半角文字で入力のこと)" label="説明" max_length="40" name="u_companycert_id_d" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="IP電話番号" max_length="20" name="u_extension_id" type="string"/>
+        <element label="所属部署" max_length="32" name="u_flr_id_reset_dep" reference="cmn_department" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="ユーザーID" max_length="40" name="u_hitati_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="例:AXXXXX(半角文字で入力のこと)" label="説明" max_length="40" name="u_hitati_id_d" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ユーザーID" max_length="40" name="u_ibm_id" type="string"/>
@@ -51,6 +59,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="ユーザーID" max_length="40" name="u_notes_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="連絡先" max_length="40" name="u_renraku_tel" type="string"/>
+        <element label="申請者" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="氏名" max_length="40" name="u_riyousya_nm" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ユーザーID" max_length="40" name="u_screen_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="例:XXXX_X(半角文字で入力のこと)" label="説明" max_length="40" name="u_screen_id_d" read_only="true" type="string"/>
@@ -58,5 +67,11 @@
         <element attributes="edge_encryption_enabled=true" label="社員番号" max_length="40" name="u_syain_bangou" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_syozokucyou_j" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="IP電話番号" max_length="20" name="u_voice_id" type="string"/>
+        <index name="index">
+            <element name="u_requested_for"/>
+        </index>
+        <index name="index2">
+            <element name="u_flr_id_reset_dep"/>
+        </index>
     </element>
 </database>

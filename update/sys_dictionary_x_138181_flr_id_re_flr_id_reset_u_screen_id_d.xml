@@ -48,7 +48,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-06-26 07:14:43</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>54520ce2db2332007a87fbefbf9619ee</sys_id>
+        <sys_id>35e7ddeadba33200f9f3f6fdbf961902</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>説明</sys_name>
         <sys_package display_value="flr_id_reset" source="x_138181_flr_id_re">d10a7f4adb633200fbeaf34ebf96197d</sys_package>
@@ -57,7 +57,7 @@
         <sys_scope display_value="flr_id_reset">d10a7f4adb633200fbeaf34ebf96197d</sys_scope>
         <sys_update_name>sys_dictionary_x_138181_flr_id_re_flr_id_reset_u_screen_id_d</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-06-27 00:17:28</sys_updated_on>
+        <sys_updated_on>2017-06-27 06:31:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

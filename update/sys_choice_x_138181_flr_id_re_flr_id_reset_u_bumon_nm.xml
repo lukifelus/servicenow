@@ -1,99 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="u_nextsystem_syurui_others1" table="x_138181_flr_id_re_flr_id_reset" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="u_bumon_nm" table="x_138181_flr_id_re_flr_id_reset" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>u_nextsystem_syurui_others1</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>メインフレーム(A04</label>
-            <language>en</language>
-            <name>x_138181_flr_id_re_flr_id_reset</name>
-            <sequence>0</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-06-26 07:05:03</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>9a06d8d6dba33200fbeaf34ebf9619ab</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-06-26 07:06:01</sys_updated_on>
-            <value>メインフレーム(A04</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_nextsystem_syurui_others1</element>
+            <element>u_bumon_nm</element>
             <hint/>
             <inactive>false</inactive>
-            <label>メインフレーム(TC11)</label>
+            <label>RDC</label>
             <language>en</language>
             <name>x_138181_flr_id_re_flr_id_reset</name>
             <sequence>0</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-06-26 07:05:03</sys_created_on>
+            <sys_created_on>2017-06-27 06:49:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>da06d8d6dba33200fbeaf34ebf9619aa</sys_id>
+            <sys_id>6c2c11eedba33200f9f3f6fdbf96190c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-06-26 07:05:03</sys_updated_on>
-            <value>メインフレーム(TC11)</value>
+            <sys_updated_on>2017-06-27 06:49:48</sys_updated_on>
+            <value>X31A3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>u_nextsystem_syurui_others1</element>
+            <element>u_bumon_nm</element>
             <hint/>
             <inactive>false</inactive>
-            <label>メインフレーム(A04)</label>
+            <label>RDC.Bank1.</label>
             <language>en</language>
             <name>x_138181_flr_id_re_flr_id_reset</name>
             <sequence>1</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-06-26 07:06:01</sys_created_on>
+            <sys_created_on>2017-06-27 06:49:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>e4469cd6dba33200fbeaf34ebf961939</sys_id>
+            <sys_id>6c2c11eedba33200f9f3f6fdbf96190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-06-26 07:06:01</sys_updated_on>
-            <value>メインフレーム(A04)</value>
+            <sys_updated_on>2017-06-27 06:49:48</sys_updated_on>
+            <value>X31M0</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>u_nextsystem_syurui_others1</element>
+            <element>u_bumon_nm</element>
             <hint/>
             <inactive>false</inactive>
-            <label>NAPOLEON</label>
+            <label>RDC.Bank1.Section1</label>
             <language>en</language>
             <name>x_138181_flr_id_re_flr_id_reset</name>
             <sequence>2</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-06-26 07:05:03</sys_created_on>
+            <sys_created_on>2017-06-27 06:49:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9606d8d6dba33200fbeaf34ebf9619ac</sys_id>
+            <sys_id>682c11eedba33200f9f3f6fdbf96190e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-06-26 07:05:03</sys_updated_on>
-            <value>NAPOLEON</value>
+            <sys_updated_on>2017-06-27 06:49:48</sys_updated_on>
+            <value>X31MA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bumon_nm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RDC.Bank1.Section2</label>
+            <language>en</language>
+            <name>x_138181_flr_id_re_flr_id_reset</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-27 06:49:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>642c11eedba33200f9f3f6fdbf96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-27 06:49:48</sys_updated_on>
+            <value>X31MC</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>u_nextsystem_syurui_others1</element>
+            <element>u_bumon_nm</element>
             <name>x_138181_flr_id_re_flr_id_reset</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-06-26 07:05:03</sys_created_on>
+            <sys_created_on>2017-06-27 06:49:48</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>f7e7512edba33200f9f3f6fdbf961983</sys_id>
+            <sys_id>282c11eedba33200f9f3f6fdbf96190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>u_nextsystem_syurui_others1</sys_name>
+            <sys_name>u_bumon_nm</sys_name>
             <sys_package display_value="flr_id_reset" source="x_138181_flr_id_re">d10a7f4adb633200fbeaf34ebf96197d</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="flr_id_reset">d10a7f4adb633200fbeaf34ebf96197d</sys_scope>
-            <sys_update_name>sys_choice_x_138181_flr_id_re_flr_id_reset_u_nextsystem_syurui_others1</sys_update_name>
+            <sys_update_name>sys_choice_x_138181_flr_id_re_flr_id_reset_u_bumon_nm</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-06-26 07:05:03</sys_updated_on>
+            <sys_updated_on>2017-06-27 06:49:48</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>
