@@ -17,7 +17,7 @@
         <number_ref display_value="FLRTASK">a0266fbadb273200fbeaf34ebf96195d</number_ref>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Task" name="task">bc446b50db313200fbeaf34ebf961984</super_class>
+        <super_class display_value="Task" name="task">77707b505c032200a21c42329c832c85</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>

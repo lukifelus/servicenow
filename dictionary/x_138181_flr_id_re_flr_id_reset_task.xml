@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Flr_id_reset Task" max_length="40" name="x_138181_flr_id_re_flr_id_reset_task" type="collection"/>
+    <element extends="task" label="Flr_id_reset Task" max_length="40" name="x_138181_flr_id_re_flr_id_reset_task" sizeclass="1" type="collection"/>
 </database>

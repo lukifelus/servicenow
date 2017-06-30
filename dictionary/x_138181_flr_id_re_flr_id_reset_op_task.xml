@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="flr_id_reset Op task" max_length="40" name="x_138181_flr_id_re_flr_id_reset_op_task" type="collection">
+        <element label="Due Date" max_length="40" name="u_due_date" type="due_date"/>
+        <element attributes="edge_encryption_enabled=true" label="ユーザーID" max_length="40" name="u_hitati_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="仮パスワード" max_length="40" name="u_hitati_pass" type="string"/>
+    </element>
+</database>
